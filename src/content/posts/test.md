@@ -1,5 +1,5 @@
 ---
-title: Red Team Security Assessment Review
+title: Red Team Security  
 published: 2026-06-18
 description: 'An overview of our recent internal Red Team test and the key takeaways for our security posture.'
 image: ''
