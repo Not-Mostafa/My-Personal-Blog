@@ -7,7 +7,7 @@ category: Study Notes
 draft: false
 ---
 
-### 📚 Master Table of Contents
+### Master Table of Contents
 * [1. Security Concepts & Principles](#1-security-concepts--principles)
 * [2. Incident Response and Business Continuity](#2-incident-response-and-business-continuity)
 * [3. Access Control Concepts](#3-access-control-concepts)
