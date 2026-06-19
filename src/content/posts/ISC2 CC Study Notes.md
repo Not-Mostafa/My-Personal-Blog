@@ -137,7 +137,7 @@ Private information may come in many forms. Two of the most common elements of
 1. Personally identifiable information, or PII, includes all information that can be tied back to a specific individual. 
 2. Protected health information, or PHI, includes healthcare records that are regulated under the Health Insurance Portability and Accountability Act. Otherwise known as HIPAA.
 
-### L1: Security Principles
+###  Security Principles
 
 #### Module 1 Understand the Security Concepts of Information Assurance
 
@@ -378,13 +378,10 @@ Regulations -> Standards -> Policies -> Procedures
 
 #### Module 5 Understand (ISC)² Code of Ethics
 
-[⬆ Back to top](#master-table-of-contents)
 
 ---
 
 ## 2. Incident Response and Business Continuity
-
-### L2 Incident Response, Business Continuity and Disaster Recovery Concepts
 
 #### Introduction
 
@@ -498,7 +495,6 @@ Disaster recovery planning **steps in where BC leaves off**. When a disaster str
 * Executive management should approve the plan and should be provided with a high-level summary of the plan.
 * Public Relations should be a member of the disaster recovery plan to handle communications to all stakeholders.
 * IT Personnel are primarily responsible for the disaster recovery team.
-[⬆ Back to top](#master-table-of-contents)
 
 ---
 
@@ -736,7 +732,6 @@ Monitoring these role-based permissions is important, because if you expand one 
 
 Having multiple roles with different combinations of permissions can require close monitoring to make sure everyone has the access they need to do their jobs and nothing more. In this world where jobs are ever-changing, this can sometimes be a challenge to keep track of, especially with extremely granular roles and permissions. Upon hiring or changing roles, a best practice is to not copy user profiles to new users. It is recommended that standard roles are established, and new users are created based on those standards rather than an actual user. That way, new employees start with the appropriate roles and permissions. 
 
-[⬆ Back to top](#master-table-of-contents)
 ---
 ## 4. Network Security
 
@@ -1193,7 +1188,6 @@ A virtual private network (VPN) **is not necessarily an encrypted tunnel**. It i
 
 
 
-[⬆ Back to top](#master-table-of-contents)
 
 ---
 
@@ -1433,7 +1427,6 @@ Sharing a password with tech support or a co-worker.
 
 
 
-[⬆ Back to top](#master-table-of-contents)
 ---
 
 ## 6. Risk Management
@@ -1477,7 +1470,6 @@ Security controls play a crucial role in reducing the likelihood or impact of ri
 
 Configuration management involves tracking and maintaining specific device settings to ensure a stable operating environment. It includes activities such as establishing baselines, versioning configurations, and standardizing device settings through naming conventions and IP addressing schemes. Change management processes help implement and track changes to configurations, ensuring consistency and stability.
 
-[⬆ Back to top](#master-table-of-contents)
 
 ---
 
@@ -1847,5 +1839,3 @@ Configuration management involves tracking and maintaining specific device setti
   > Web Server
 34. Phishing attacks that attempt to trick highly placed officials or private individuals with sizable assets into authorizing large fund wire transfers to previously unknown entities.
   > Whaling Attack
-
-[⬆ Back to top](#master-table-of-contents)
