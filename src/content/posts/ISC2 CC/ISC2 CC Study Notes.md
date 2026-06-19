@@ -8,17 +8,17 @@ draft: false
 ---
 
 ### Master Table of Contents
-* [1. Security Concepts & Principles](#1-security-concepts--principles)
-* [2. Incident Response and Business Continuity](#2-incident-response-and-business-continuity)
-* [3. Access Control Concepts](#3-access-control-concepts)
-* [4. Network Security](#4-network-security)
-* [5. Security Operations](#5-security-operations)
-* [6. Risk Management](#6-risk-management)
-* [7. Quizzes & Flashcards](#7-quizzes--flashcards)
+* [1. Security Concepts & Principles](#security-concepts--principles)
+* [2. Incident Response and Business Continuity](#incident-response-and-business-continuity)
+* [3. Access Control Concepts](#access-control-concepts)
+* [4. Network Security](#network-security)
+* [5. Security Operations](#security-operations)
+* [6. Risk Management](#risk-management)
+* [7. Quizzes & Flashcards](#quizzes--flashcards)
 
 ---
 
-## 1. Security Concepts & Principles
+## Security Concepts & Principles
 
 ### Security Concepts
 CIA Traid are three main goals
@@ -381,7 +381,7 @@ Regulations -> Standards -> Policies -> Procedures
 
 ---
 
-## 2. Incident Response and Business Continuity
+## Incident Response and Business Continuity
 
 #### Introduction
 
@@ -498,7 +498,7 @@ Disaster recovery planning **steps in where BC leaves off**. When a disaster str
 
 ---
 
-## 3. Access Control Concepts
+## Access Control Concepts
 
 #### Introduction
 
@@ -733,7 +733,7 @@ Monitoring these role-based permissions is important, because if you expand one 
 Having multiple roles with different combinations of permissions can require close monitoring to make sure everyone has the access they need to do their jobs and nothing more. In this world where jobs are ever-changing, this can sometimes be a challenge to keep track of, especially with extremely granular roles and permissions. Upon hiring or changing roles, a best practice is to not copy user profiles to new users. It is recommended that standard roles are established, and new users are created based on those standards rather than an actual user. That way, new employees start with the appropriate roles and permissions. 
 
 ---
-## 4. Network Security
+## Network Security
 
 #### Module 1: Understand Computer Networking
 
@@ -1191,7 +1191,7 @@ A virtual private network (VPN) **is not necessarily an encrypted tunnel**. It i
 
 ---
 
-## 5. Security Operations
+## Security Operations
 
 #### Module 1: Understand Data Security
 
@@ -1429,7 +1429,7 @@ Sharing a password with tech support or a co-worker.
 
 ---
 
-## 6. Risk Management
+## Risk Management
 
 
 #### Understanding Risks
@@ -1473,7 +1473,7 @@ Configuration management involves tracking and maintaining specific device setti
 
 ---
 
-## 7. Quizzes & Flashcards
+## Quizzes & Flashcards
 *(Self-assessment questions and rapid-fire flashcard terms to test your readiness.)*
 ### [(ISC)2 Flashcards for CC (Certified in Cybersecurity)](https://learn.isc2.org/d2l/home/9541)
 
