@@ -72,7 +72,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Discord",
 			icon: "fa6-brands:discord",
-			url: "https://discord.gg/unclemostafa",
+			url: "https://discord.com/users/548040857509429248",
 		},
 		{
 			name: "GitHub",
