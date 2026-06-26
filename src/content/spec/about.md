@@ -23,7 +23,7 @@ I don't just live in the software layer. I love getting my hands dirty with hard
 * **Development:** I enjoy building tools that solve actual problems, from automated bots to mobile applications like the campus scheduling app I developed for my university.
 * **Reverse Engineering:** I enjoy deconstructing software—frequently dropping down to assembly level to uncover hidden vulnerabilities, understand complex execution flows, and hunt for unusual bugs.
 
-[Mostafa Gbr cv.pdf](https://mostafa-gbr.vercel.app/MostafaGbrCv.pdf)
+[MostafaGbrcv.pdf](https://mostafa-gbr-blog.vercel.app/MostafaGbrCv.pdf)
 
 **Let's Connect!**
 Feel free to reach out if you want to talk about offensive security, collaborate on a CTF, or brainstorm a new project.
