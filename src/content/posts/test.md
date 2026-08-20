@@ -5,7 +5,7 @@ description: 'An overview of our recent internal Red Team test and the key takea
 image: ''
 tags: ['red-team', 'cybersecurity', 'penetration-testing', 'infosec']
 category: 'Security'
-draft: false 
+draft: true 
 lang: 'en'
 ---
 
