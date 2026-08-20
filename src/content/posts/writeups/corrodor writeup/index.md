@@ -1,5 +1,5 @@
 ---
-title: "Corridor Write Up - thm"
+title: "Corridor Write Up - THM"
 published: 2026-07-08
 description: "Walkthrough of the TryHackMe [Room Name] challenge, covering enumeration, web analysis, MD5 hash discovery, and flag retrieval."
 tags: [THM, ctf, writeup]
