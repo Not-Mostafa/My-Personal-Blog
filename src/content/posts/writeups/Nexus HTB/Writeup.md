@@ -49,7 +49,8 @@ nmap -Pn -sC -sV -p80,993,1025,3306,6379 10.129.101.243
 ```
 
 - Found this mail in `http://nexus.htb` `j.mattew@nexus.htb`.
-![[CTF/Nexus HTB/media/Pasted image 20260819010708.png]]Instead of stopping at the scan result, I continued with web enumeration. The following fuzzing command revealed two additional applications:
+![](media/Pasted%20image%2020260819010708.png)
+Instead of stopping at the scan result, I continued with web enumeration. The following fuzzing command revealed two additional applications:
 
 ```bash
 ffuf -u http://nexus.htb/FUZZ \
@@ -100,7 +101,9 @@ The leaked password authenticated successfully to the mail/billing workflow. Thi
 
 ## 3. From the billing application to a shell
 
-The billing application was PHP-based and processed attachments from the mail workflow.![[Pasted image 20260820192851.png]]![[Pasted image 20260820192909.png]]
+The billing application was PHP-based and processed attachments from the mail workflow.
+![](media/Pasted%20image%2020260820192851.png)
+![](media/Pasted%20image%2020260820192909.png)
 
 ![Billing application](media/Pasted%20image%2020260819011846.png)
 
@@ -140,7 +143,7 @@ The attack steps were:
 3. Open the attachment.
 4. Catch the callback in the Netcat listener.
 
-![[Pasted image 20260820192929.png]]
+![](media/Pasted%20image%2020260820192929.png)
 
 
 ![Reverse shell received](media/Pasted%20image%2020260819141516.png)
