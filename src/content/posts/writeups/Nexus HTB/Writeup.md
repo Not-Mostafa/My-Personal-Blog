@@ -11,7 +11,9 @@ draft: false
 
 ## Summary
 
-Nexus was a satisfying chain rather than a single vulnerability. An exposed Git repository leaked application configuration, which led to code execution through a billing application. A second set of credentials provided SSH access as a normal user. Finally, a root-run Gitea template synchroniser trusted paths from Git tree objects, allowing a crafted repository to write an SSH key into root's account.![[0_CJg2xojXGmlZoGJ-.webp]]
+Nexus was a satisfying chain rather than a single vulnerability. An exposed Git repository leaked application configuration, which led to code execution through a billing application. A second set of credentials provided SSH access as a normal user. Finally, a root-run Gitea template synchroniser trusted paths from Git tree objects, allowing a crafted repository to write an SSH key into root's account.
+
+![](media/0_CJg2xojXGmlZoGJ-.png)
 
 ```text
 Exposed Git configuration
@@ -98,7 +100,7 @@ The leaked password authenticated successfully to the mail/billing workflow. Thi
 
 ## 3. From the billing application to a shell
 
-The billing application was PHP-based and processed attachments from the mail workflow.
+The billing application was PHP-based and processed attachments from the mail workflow.![[Pasted image 20260820192851.png]]![[Pasted image 20260820192909.png]]
 
 ![Billing application](media/Pasted%20image%2020260819011846.png)
 
@@ -138,6 +140,8 @@ The attack steps were:
 3. Open the attachment.
 4. Catch the callback in the Netcat listener.
 
+![[Pasted image 20260820192929.png]]
+
 
 ![Reverse shell received](media/Pasted%20image%2020260819141516.png)
 
@@ -159,6 +163,7 @@ DB_PASSWORD=y27xb3ha!!74GbR
 
 - This password authenticated as `jones` in Gitea:
 
+![[Pasted image 20260820193834.png]]
 
 It also worked over SSH, giving a stable user shell and the user flag.
 
@@ -219,7 +224,7 @@ jones@nexus:~# cd /tmp
 jones@nexus:~# ssh-keygen -t ed25519 -f /tmp/mykey -N ''
 ```
 
-I created a repository in Gitea and made it as a template and cloned it locally as `jones`:
+I created a repository in Gitea and made it as a template and cloned it locally as `jones`:![[Pasted image 20260820193917.png]]
 
 ```bash
 jones@nexus:~# git clone http://jones:'y27xb3ha!!74GbR'@localhost:3000/jones/test.git
@@ -326,3 +331,7 @@ Nexus demonstrates how a seemingly harmless file synchronisation task can become
 - Run automation under a dedicated unprivileged account.
 - Do not commit `.env` files or historic secrets to repositories; rotate anything exposed.
 - Never execute untrusted attachments on the server.
+
+## Related post
+
+For a focused explanation of the Git object internals and the crafted-tree technique, see [Building a Malicious Git Tree for the Nexus HTB Escalation](Git%20Tree%20Writeup.md).
