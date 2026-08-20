@@ -163,7 +163,7 @@ DB_PASSWORD=y27xb3ha!!74GbR
 
 - This password authenticated as `jones` in Gitea:
 
-![[Pasted image 20260820193834.png]]
+![](media/Pasted image 20260820193834.png)
 
 It also worked over SSH, giving a stable user shell and the user flag.
 
@@ -224,7 +224,7 @@ jones@nexus:~# cd /tmp
 jones@nexus:~# ssh-keygen -t ed25519 -f /tmp/mykey -N ''
 ```
 
-I created a repository in Gitea and made it as a template and cloned it locally as `jones`:![[Pasted image 20260820193917.png]]
+I created a repository in Gitea and made it as a template and cloned it locally as `jones`:![](media/Pasted image 20260820193917.png)
 
 ```bash
 jones@nexus:~# git clone http://jones:'y27xb3ha!!74GbR'@localhost:3000/jones/test.git
@@ -232,7 +232,7 @@ jones@nexus:~# cd test
 ```
 
 - The following script creates Git blob, tree, and commit objects directly. It builds a tree where four `..` components lead to `/.ssh/authorized_keys`.
-- Note, I didn't write the code, to fully understand what it does, check [Building a Malicious Git Tree for the Nexus HTB Escalation](Git%20Tree%20Writeup.md).
+- Note, I didn't write the code, to fully understand what it does, check [Building a Malicious Git Tree for the Nexus HTB Escalation](https://mostafa-gbr-blog.vercel.app/posts/writeups/nexus-htb/git-tree-writeup/).
 
 ```python
 #!/usr/bin/env python3
@@ -334,4 +334,4 @@ Nexus demonstrates how a seemingly harmless file synchronisation task can become
 
 ## Related post
 
-For a focused explanation of the Git object internals and the crafted-tree technique, see [Building a Malicious Git Tree for the Nexus HTB Escalation](Git%20Tree%20Writeup.md).
+For a focused explanation of the Git object internals and the crafted-tree technique, see [Building a Malicious Git Tree for the Nexus HTB Escalation](https://mostafa-gbr-blog.vercel.app/posts/writeups/nexus-htb/git-tree-writeup/).
