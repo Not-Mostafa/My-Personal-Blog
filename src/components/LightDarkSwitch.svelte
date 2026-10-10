@@ -11,6 +11,10 @@ import {
 import { onMount } from "svelte";
 import type { LIGHT_DARK_MODE } from "@/types/config.ts";
 
+// Takes no props. Declaring them loosely keeps Astro's `client:only` directive
+// type-checking; a runes component with no $props() call accepts no attributes.
+const _props: Record<string, unknown> = $props();
+
 const seq: LIGHT_DARK_MODE[] = [LIGHT_MODE, DARK_MODE, AUTO_MODE];
 let mode: LIGHT_DARK_MODE = $state(AUTO_MODE);
 
