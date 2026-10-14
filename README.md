@@ -1,99 +1,67 @@
-# 🍥Fuwari  
-![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
-![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-saicaca%2Ffuwari-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/saicaca/fuwari)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_shield&issueType=license)
+<div align="center">
 
-A static blog template built with [Astro](https://astro.build).
+# t5um1x
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
+**Offensive security notes, CTF write-ups, and the occasional rabbit hole.**
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+[![Blog](https://img.shields.io/badge/blog-mostafa--gbr.vercel.app-5865F2?style=for-the-badge&logo=vercel&logoColor=white)](https://mostafa-gbr.vercel.app/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-3mkMostafa-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/3mkMostafa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mostafa%20Gbr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-hosam-gbr/)
+[![Discord](https://img.shields.io/badge/Discord-t5um1x-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/548040857509429248)
 
-🌏 README in
-[**中文**](https://github.com/saicaca/fuwari/blob/main/docs/README.zh-CN.md) /
-[**日本語**](https://github.com/saicaca/fuwari/blob/main/docs/README.ja.md) /
-[**한국어**](https://github.com/saicaca/fuwari/blob/main/docs/README.ko.md) /
-[**Español**](https://github.com/saicaca/fuwari/blob/main/docs/README.es.md) /
-[**ไทย**](https://github.com/saicaca/fuwari/blob/main/docs/README.th.md) /
-[**Tiếng Việt**](https://github.com/saicaca/fuwari/blob/main/docs/README.vi.md) /
-[**Bahasa Indonesia**](https://github.com/saicaca/fuwari/blob/main/docs/README.id.md) (Provided by the community and may not always be up-to-date)
+</div>
 
-## ✨ Features
-
-- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- [x] Smooth animations and page transitions
-- [x] Light / dark mode
-- [x] Customizable theme colors & banner
-- [x] Responsive design
-- [x] Search functionality with [Pagefind](https://pagefind.app/)
-- [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
-- [x] Table of contents
-- [x] RSS feed
-
-## 🚀 Getting Started
-
-1. Create your blog repository:
-    - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-    - Or run one of the following commands:
-       ```sh
-       npm create fuwari@latest
-       yarn create fuwari
-       pnpm create fuwari@latest
-       bun create fuwari@latest
-       deno run -A npm:create-fuwari@latest
-       ```
-2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
-    - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
-
-## 📝 Frontmatter of Posts
-
-```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
-draft: false
-lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
----
+
+## 👋 Who's behind this
+
+I'm **Mostafa**, a Computer Engineering student at Nile University who likes breaking things to understand how they work.
+
+I started on the blue side as an **L1 SOC Analyst**, and I've since moved to **offensive security and red teaming**: web and API exploitation, privilege escalation, and popping shells on Hack The Box and TryHackMe. When I'm not in a terminal, I'm usually wiring up STM32 / ESP8266 / Arduino boards or reading assembly to see what a binary is really doing.
+
+This repo is the source of my blog, where I write up the boxes I solve and the things I learn along the way.
+
+## 🗂️ What you'll find on the blog
+
+| Post | Platform | What it covers |
+|:-----|:---------|:---------------|
+| **Nexus** | Hack The Box | From an exposed Git config to root through a vulnerable Gitea template synchroniser |
+| **Building a Malicious Git Tree** | Hack The Box | Deep dive on the Nexus privesc: hand-crafted Git objects that bypass path validation for an arbitrary file write as root |
+| **Corridor** | TryHackMe | Enumeration, web analysis, and MD5 hash discovery to grab the flag |
+| **ISC2 CC Study Notes** | Certification | All-in-one notes for the ISC2 Certified in Cybersecurity exam |
+
+More write-ups land as I finish boxes. Browse them all in the [archive](https://mostafa-gbr.vercel.app/archive/).
+
+## 🎯 Focus areas
+
+- **Web & API exploitation**: injection, auth flaws, misconfigurations, and chaining small bugs into big ones
+- **Privilege escalation**: Linux internals, misconfigured services, and abusing the tools that run as root
+- **Red teaming & recon**: simulating real attacks end to end
+- **Reverse engineering**: dropping down to assembly to find what the source won't tell you
+- **Hardware tinkering**: microcontrollers, sensors, and small automation projects
+
+## 🛠️ How the blog is built
+
+The site is built with [Astro](https://astro.build) on top of the [Fuwari](https://github.com/saicaca/fuwari) theme, styled with Tailwind CSS, searchable with Pagefind, and deployed on Vercel. Posts are Markdown files under [`src/content/posts/`](src/content/posts/).
+
+```sh
+pnpm install          # install dependencies
+pnpm dev              # local dev server at localhost:4321
+pnpm new-post <name>  # scaffold a new post
+pnpm build            # production build to ./dist/
 ```
 
-## 🧩 Markdown Extended Syntax
-
-In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
-
-- Admonitions ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#admonitions))
-- GitHub repository cards ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#github-repository-cards))
-- Enhanced code blocks with Expressive Code ([Preview](https://fuwari.vercel.app/posts/expressive-code/) / [Docs](https://expressive-code.com/))
-
-## ⚡ Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                    | Action                                              |
-|:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Installs dependencies                               |
-| `pnpm dev`                 | Starts local dev server at `localhost:4321`         |
-| `pnpm build`               | Build your production site to `./dist/`             |
-| `pnpm preview`             | Preview your build locally, before deploying        |
-| `pnpm check`               | Run checks for errors in your code                  |
-| `pnpm format`              | Format your code using Biome                        |
-| `pnpm new-post <filename>` | Create a new post                                   |
-| `pnpm astro ...`           | Run CLI commands like `astro add`, `astro check`    |
-| `pnpm astro --help`        | Get help using the Astro CLI                        |
-
-## ✏️ Contributing
-
-Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/CONTRIBUTING.md) for details on how to contribute to this project.
+Site settings (name, bio, links, theme) live in [`src/config.ts`](src/config.ts).
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+- **Write-ups and post content** are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Share and adapt them with credit, non-commercially.
+- **Site code** is based on [Fuwari](https://github.com/saicaca/fuwari) and is available under the [MIT License](LICENSE).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
+<div align="center">
+
+---
+
+*Got a box you want to talk through, a CTF team that needs a player, or a project idea? [Reach out.](https://www.linkedin.com/in/mostafa-hosam-gbr/)*
+
+</div>
