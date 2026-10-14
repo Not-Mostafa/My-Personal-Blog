@@ -166,7 +166,7 @@ DB_PASSWORD=y27xb3ha!!74GbR
 
 - This password authenticated as `jones` in Gitea:
 
-![](media/Pasted image 20260820193834.png)
+![](media/Pasted%20image%2020260820193834.png)
 
 It also worked over SSH, giving a stable user shell and the user flag.
 
@@ -227,7 +227,7 @@ jones@nexus:~# cd /tmp
 jones@nexus:~# ssh-keygen -t ed25519 -f /tmp/mykey -N ''
 ```
 
-I created a repository in Gitea and made it as a template and cloned it locally as `jones`:![](media/Pasted image 20260820193917.png)
+I created a repository in Gitea and made it as a template and cloned it locally as `jones`:![](media/Pasted%20image%2020260820193917.png)
 
 ```bash
 jones@nexus:~# git clone http://jones:'y27xb3ha!!74GbR'@localhost:3000/jones/test.git

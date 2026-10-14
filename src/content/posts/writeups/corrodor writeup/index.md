@@ -84,7 +84,8 @@ The script:
 
 - This successfully uncovered an additional hidden endpoint containing the flag.
 
-```[0] cfcd208495d565ef66e7dff9f98764da
+```text
+[0] cfcd208495d565ef66e7dff9f98764da
 <!DOCTYPE html>
 <html lang="en">
 <head>
